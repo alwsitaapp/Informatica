@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitación en Informática y Nuevas Tecnologías</title>
+    <meta name="description" content="Aprende sobre informática, nuevas tecnologías e inteligencia artificial con nuestra capacitación especializada.">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Google Analytics (reemplaza "G-XXXXXXXXXX" con tu ID real) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Capacitación en Informática, Nuevas Tecnologías e Inteligencia Artificial</h1>
+        <p>¡Prepárate para el futuro con nuestras capacitaciones prácticas y actualizadas!</p>
+    </header>
+
+    <section id="info">
+        <h2>¿Qué aprenderás?</h2>
+        <ul>
+            <li>Fundamentos de informática y sistemas operativos</li>
+            <li>Herramientas digitales y ofimática avanzada</li>
+            <li>Introducción a las nuevas tecnologías: IoT, Blockchain, Big Data</li>
+            <li>Conceptos esenciales de inteligencia artificial y aprendizaje automático</li>
+            <li>Aplicaciones prácticas de la IA en tu área profesional</li>
+        </ul>
+    </section>
+
+    <section id="beneficios">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Contamos con instructores certificados, materiales actualizados y una plataforma interactiva que se adapta a tu ritmo de aprendizaje.</p>
+    </section>
+
+    <section id="estadisticas">
+        <h2>Estadísticas del sitio</h2>
+        <p>Este sitio cuenta con análisis en tiempo real mediante Google Analytics.</p>
+        <p><em>*El número exacto de visitantes se muestra en tu panel de Google Analytics.*</em></p>
+    </section>
+
+    <section id="contacto">
+        <h2>Inscríbete ahora</h2>
+        <form action="https://formspree.io/f/tu-id" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required><br>
+            
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" required><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Capacitación en Tecnologías. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
